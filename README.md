@@ -56,7 +56,9 @@ pip install -r requirements-gpu.txt
 ```
 **Note:** If installing GPU version with Pip, you need to install CUDA and cuDNN in your system. You can find the tutorial for Windows [here](https://www.youtube.com/watch?v=PlW9zAg4cx8).
 # Performance
-<p align="center"><img src="data/performance.png" width="640"\></p>
+
+![performance](https://user-images.githubusercontent.com/81319640/176090410-c430a105-b184-4447-8b39-2f342a782151.png)
+
 
 # Download Weights File
 Download `yolov4.weights` file 245 MB: [yolov4.weights](https://github.com/AlexeyAB/darknet/releases/download/darknet_yolo_v3_optimal/yolov4.weights) (Google-drive mirror [yolov4.weights](https://drive.google.com/open?id=1cewMfusmPjYWbrnuJRuKhPMwRe_b9PaT) )
@@ -97,8 +99,9 @@ python detect_video.py --weights ./checkpoints/yolov4-416 --size 416 --model yol
 
 #### Output
 
-##### Yolov4 original weight
-<p align="center"><img src="result.png" width="640"\></p>
+
+<img width="489" alt="Screen Shot 2022-06-28 at 11 13 54" src="https://user-images.githubusercontent.com/81319640/176090834-f5972865-2fac-492b-afca-802eb6b8b4cb.png">
+
 
 # Convert to tflite
 
