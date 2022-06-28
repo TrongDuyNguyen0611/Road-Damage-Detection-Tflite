@@ -129,8 +129,6 @@ python detect.py --weights ./checkpoints/yolov4-416.tflite --size 416 --model yo
 python detect_video.py --weights ./checkpoints/yolov4-416.tflite --size 416 --model yolov4 --video ./data/japan.mp4 --output ./detections/video_output.avi --framework tflite
 
 ```
-##### Yolov4 tflite int8 weight
-<p align="center"><img src="result-int8.png" width="640"\></p>
 
 Yolov4 and Yolov4-tiny int8 quantization have some issues. I will try to fix that. You can try Yolov3 and Yolov3-tiny int8 quantization 
 # Convert to TensorRT
