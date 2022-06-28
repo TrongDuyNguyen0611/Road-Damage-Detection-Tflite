@@ -49,9 +49,6 @@ pip install -r requirements-gpu.txt
 
 ```
 **Note:** If installing GPU version with Pip, you need to install CUDA and cuDNN in your system. You can find the tutorial for Windows [here](https://www.youtube.com/watch?v=PlW9zAg4cx8).
-# Performance
-
-![image](https://user-images.githubusercontent.com/81319640/176092993-7bc79288-39c3-4829-8f31-ab110c43ca8c.png)
 
 
 
