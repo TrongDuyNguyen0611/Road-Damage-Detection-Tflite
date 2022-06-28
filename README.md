@@ -70,7 +70,6 @@ python save_model.py --weights ./data/yolov4.weights --output ./checkpoints/yolo
 python save_model.py --weights ./data/yolov4-tiny.weights --output ./checkpoints/yolov4-tiny-416 --input_size 416 --model yolov4 --tiny
 
 ```
-If you want to run yolov3 or yolov3-tiny change ``--model yolov3`` in command and also download corresponding YOLOv3 weights and and change ``--weights to ./data/yolov3.weights``
 
 ### Run Object Detection
 
@@ -129,13 +128,6 @@ Yolov4 and Yolov4-tiny int8 quantization have some issues. I will try to fix tha
 Similar to above method, you can convert darknet ``yolov3`` or ``yolov4`` models to ``tensorflow`` and then to ``TensorRT``.
 
 ```bash
-# yolov3
-python save_model.py --weights ./data/yolov3.weights --output ./checkpoints/yolov3.tf --input_size 416 --model yolov3
-python convert_trt.py --weights ./checkpoints/yolov3.tf --quantize_mode float16 --output ./checkpoints/yolov3-trt-fp16-416
-
-# yolov3-tiny
-python save_model.py --weights ./data/yolov3-tiny.weights --output ./checkpoints/yolov3-tiny.tf --input_size 416 --tiny
-python convert_trt.py --weights ./checkpoints/yolov3-tiny.tf --quantize_mode float16 --output ./checkpoints/yolov3-tiny-trt-fp16-416
 
 # yolov4
 python save_model.py --weights ./data/yolov4.weights --output ./checkpoints/yolov4.tf --input_size 416 --model yolov4
