@@ -1,6 +1,7 @@
 # Road Damage Detection YOLOV4 tflite 
 
-![Uploading ezgif.com-gif-maker.gif…]()
+
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/81319640/176096013-6ce35d98-2deb-42fa-a523-9817c243bd89.gif)
 
 
 1. [Setting Up Environment](#setting-up-environment)
